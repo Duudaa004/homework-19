@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tableDiv {
+    display: flex;
+    justify-content: center;
+}
+
+th,td {
+    padding: 10px;
+}
+
+#modal_div {
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modal_div.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+#open_modal {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#modal_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
